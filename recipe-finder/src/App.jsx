@@ -1,11 +1,13 @@
+import { useState } from 'react';
+import SearchBar from './components/SearchBar';
+import RecipeCard from './components/RecipeCard';
 import './App.css';
 
-function App() {
-  return (
-    <div className="app">
-      <h1>🍽️ Recipe Finder</h1>
-    </div>
-  );
-}
+function App(){
+  const [query, setQuery] = useState('');
+  const [recipes, setRecipes] = useState([]);
 
-export default App;
+  const dummyData = [
+    
+  ]
+}
