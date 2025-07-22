@@ -18,4 +18,9 @@ input{
 
 button{
   padding: 0.5rem 1rem;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
