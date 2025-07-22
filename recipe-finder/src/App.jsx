@@ -28,8 +28,14 @@ function App(){
   return (
     <div className="app">
       <h1>Recipe Finder</h1>
+      <SearchBar query={query} setQuery={setQuery} handleSearch={handleSearch} />
+     <div className="recipe-list">
+      {recipes.map((recipe, index) => (
+        <RecipeCard key={index} recipe={recipe} />
+      ))}
+     </div>
     </div>
-  )
+  );
 
 }
 
