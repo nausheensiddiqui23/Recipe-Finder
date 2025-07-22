@@ -8,6 +8,7 @@ function App(){
   const [recipes, setRecipes] = useState([]);
 
   const dummyData = [
+    title: 'Chicken Curry',
     
   ]
 }
