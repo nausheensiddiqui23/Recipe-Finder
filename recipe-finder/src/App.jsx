@@ -3,6 +3,7 @@ import SearchBar from './components/SearchBar';
 import RecipeCard from './components/RecipeCard';
 import './App.css';
 import chicken_curry from './assets/chicken_curry.jpg'
+import pasta from './assets/pasta.jpeg'
 
 function App(){
   const [query, setQuery] = useState('');
@@ -16,7 +17,7 @@ function App(){
   },
   {
     title: 'Pasta',
-    image: '',
+    image: pasta,
     calories: 350,
   },
   ];
