@@ -27,5 +27,5 @@ button{
 
 
 .recipe-list{
-  
+  display: flex;
 }
