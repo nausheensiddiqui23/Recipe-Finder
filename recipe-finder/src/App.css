@@ -28,4 +28,5 @@ button{
 
 .recipe-list{
   display: flex;
+  gap: 1rem;
 }
