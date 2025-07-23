@@ -2,6 +2,7 @@ import { useState } from 'react';
 import SearchBar from './components/SearchBar';
 import RecipeCard from './components/RecipeCard';
 import './App.css';
+import chicken_curry from './assets/chicken_curry.jpg'
 
 function App(){
   const [query, setQuery] = useState('');
@@ -10,7 +11,7 @@ function App(){
   const dummyData = [
     {
     title: 'Chicken Curry',
-     image: 'https://via.placeholder.com/150',
+    image: chicken_curry,
       calories: 350,
   },
   {
